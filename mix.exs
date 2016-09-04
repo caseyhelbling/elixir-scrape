@@ -31,12 +31,12 @@ defmodule Scrape.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:floki,      "~> 0.9"}, # html/xml parser
-      {:httpoison,  "~> 0.8"}, # http client
-      {:codepagex,  "~> 0.1.2"}, # iconv written in pure elixir
-      {:timex,      "~> 2.2.1"}, # date/time processing
+      {:floki,      "~> 0.10.1"}, # html/xml parser
+      {:httpoison,  "~> 0.9.1"}, # http client
+      {:codepagex,  "~> 0.1.3"}, # iconv written in pure elixir
+      {:timex,      "~> 3.0"}, # date/time processing
       {:parallel,   "~> 0.0.3"}, # easy parallel processing
-      {:dogma,      "~> 0.1.6", only: :dev} # static code linter
+      {:dogma,      "~> 0.1.7", only: :dev} # static code linter
     ]
   end
 
